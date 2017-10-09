@@ -1,6 +1,11 @@
+.form{
+  height: 100%;
+}
+
 body
 {
   background-color: #CCCCCC;
+
 }
 
 .page
@@ -53,7 +58,6 @@ h2
 .bloc
 {
   margin-bottom: 70px;
-  margin-bottom: 70px;
   text-align: justify;
 }
 
@@ -63,11 +67,11 @@ h2
   font-weight: bold;
   font-size: 20px;
   text-align: left;
+  width: 15%;
 }
 
 .droite
 {
   float: right;
-  margin-left: 0px;
-  width: 80%;
+  width: 70%;
 }
