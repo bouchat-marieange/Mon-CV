@@ -1,10 +1,42 @@
+
+body
+{
+  background-color: #CCCCCC;
+
+}
+
 .page
 {
   width: 780px;
   margin: auto;
   font-size: 16px;
   font-family: "Source sans Pro", Calibri, Tahoma, sans-serif;
+  padding: 40px;
+  border: 5px solid #3388CC;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+  background-color: #FFFFFF;
 }
+
+strong
+{
+  font-size: 26px;
+}
+
+h2
+{
+  font-size: 28px;
+  color: #3388BB;
+  text-transform: uppercase;
+  border-bottom: 3px solid #3388DD;
+}
+
+.titre
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .infophoto
 {
   height: 250px;
@@ -20,126 +52,45 @@
   float: right;
 }
 
-.section
+.bloc
 {
   margin-bottom: 70px;
+  /*text-align: justify;*/
+  margin-top:10px;
 }
 
-.sec-gauche
+
+.form .experience .lang-info .interet
 {
-  float: left;
+  height: 100%;
+  display: block;
 }
 
-.sec-droite
-{
-  margin-left: 150px;
-}
 
-strong
-{
-  font-size: 26px;
-}
-
-.section
-{
-  margin-bottom: 70px;
-  text-align: justify;
-}
-
-h2
-{
-  font-size: 28px;
-  color: #3388BB;
-  text-transform: uppercase;
-  border-bottom: 3px solid #3388DD;
-}
-
-.sec-gauche
+.gauche
 {
   float: left;
   font-weight: bold;
   font-size: 20px;
+  text-align: left;
+  width: 15%;
 }
 
-.duree
+.gauche p
 {
-  font-weight: normal;
-  font-style: italic;
-  font-size: 16px;
+margin-top: 0;
 }
 
-.sec-droite
+.droite
 {
-  margin-left: 150px;
+  width: 75%;
+  margin-left: 25%;
+  text-align: left;
+  display: block;
 }
 
-.titre
+p
 {
-  font-weight: bold;
-  font-size: 20px;
+  display: block;
+  height: 20%;
 }
-
-/*#forma-gauche p
-{
-  margin-bottom: 37px;
-  background-color:yellow;
-}*/
-
-/*Problème le margin top ne s'est pas appliqué à la section langues et centre d'intéret qui porte pourtant la classe sec-droite*/
-.sec-droite
-{
-  margin-left: 150px;
-  margin-top: 37px;
-}
-
-.sec-gauche
-{
-  background-color:blue;
-}
-
-/*Essai pour aligner hors tuto*/
-/*.sec-gauche p
-{
-  background-color:blue;
-  margin-bottom: 37px;
-}*/
-
-
-
-/*Problème le margin-top ne s'applique pas pour aligné verticalement les dates avec contenu*/
-#exp-gauche p
-{
-  background-color: red;
-  margin-top: 32px;
-  /*padding-top: 32px;*/
-}
-
-/*Le margin top appliqué sur les class sec-droite est insuffisant, il reste un décallage, ciblé par id pour augmenté margin-top sur cette section*/
-/*.lang-interet-droite
-{
-  background-color:yellow;
-  margin-top: 47px;
-}*/
-
-body
-{
-  background-color: #CCCCCC;
-}
-
-.page
-{
-  width: 780px;
-  margin: auto;
-  font-size: 16px;
-  font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
-  padding: 40px;
-  border: 5px solid #3388CC;
-  border-radius: 10px;
-  box-shadow: 2px 4px 3px black;
-  background-color: #FFFFFF;
-}
-
-/*.section:hover
-{
-  color: #00AA00;
-}*/

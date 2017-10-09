@@ -1,0 +1,145 @@
+.page
+{
+  width: 780px;
+  margin: auto;
+  font-size: 16px;
+  font-family: "Source sans Pro", Calibri, Tahoma, sans-serif;
+}
+.infophoto
+{
+  height: 250px;
+}
+
+.info
+{
+  float:left;
+}
+
+.photo
+{
+  float: right;
+}
+
+.section
+{
+  margin-bottom: 70px;
+}
+
+.sec-gauche
+{
+  float: left;
+}
+
+.sec-droite
+{
+  margin-left: 150px;
+}
+
+strong
+{
+  font-size: 26px;
+}
+
+.section
+{
+  margin-bottom: 70px;
+  text-align: justify;
+}
+
+h2
+{
+  font-size: 28px;
+  color: #3388BB;
+  text-transform: uppercase;
+  border-bottom: 3px solid #3388DD;
+}
+
+.sec-gauche
+{
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.duree
+{
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.sec-droite
+{
+  margin-left: 150px;
+}
+
+.titre
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*#forma-gauche p
+{
+  margin-bottom: 37px;
+  background-color:yellow;
+}*/
+
+/*Problème le margin top ne s'est pas appliqué à la section langues et centre d'intéret qui porte pourtant la classe sec-droite*/
+.sec-droite
+{
+  margin-left: 150px;
+  margin-top: 37px;
+}
+
+.sec-gauche
+{
+  background-color:blue;
+}
+
+/*Essai pour aligner hors tuto*/
+/*.sec-gauche p
+{
+  background-color:blue;
+  margin-bottom: 37px;
+}*/
+
+
+
+/*Problème le margin-top ne s'applique pas pour aligné verticalement les dates avec contenu*/
+#exp-gauche p
+{
+  background-color: red;
+  margin-top: 32px;
+  /*padding-top: 32px;*/
+}
+
+/*Le margin top appliqué sur les class sec-droite est insuffisant, il reste un décallage, ciblé par id pour augmenté margin-top sur cette section*/
+/*.lang-interet-droite
+{
+  background-color:yellow;
+  margin-top: 47px;
+}*/
+
+body
+{
+  background-color: #CCCCCC;
+}
+
+.page
+{
+  width: 780px;
+  margin: auto;
+  font-size: 16px;
+  font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
+  padding: 40px;
+  border: 5px solid #3388CC;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+  background-color: #FFFFFF;
+}
+
+/*.section:hover
+{
+  color: #00AA00;
+}*/
