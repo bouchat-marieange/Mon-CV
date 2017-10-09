@@ -16,4 +16,8 @@ Nouvelles compétences
 
 * J'apprends petit à petit à me servir de l'inspecteur de Chrome pour vérifier et analyser mon code en direct
 * J'utilise les fonctionnalités d'Emmet de plus en plus souvent avec Atom, j'ai retenu les raccourcis principals.
+* Apprentissage des commandes principales terminal
+* Installation de plugins Atom
+* Apprentissage des raccourcis et du maniement de Atom dans l'utilisation courante
+
 
