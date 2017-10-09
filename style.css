@@ -79,10 +79,11 @@ h2
   font-size: 20px;
 }
 
-#forma-gauche p
+/*#forma-gauche p
 {
   margin-bottom: 37px;
-}
+  background-color:yellow;
+}*/
 
 /*Problème le margin top ne s'est pas appliqué à la section langues et centre d'intéret qui porte pourtant la classe sec-droite*/
 .sec-droite
@@ -91,13 +92,21 @@ h2
   margin-top: 37px;
 }
 
-
 .sec-gauche
 {
   background-color:blue;
 }
-/*Problème le margin-top ne s'applique pas pour aligné verticalement les dates avec contenu*/
 
+/*Essai pour aligner hors tuto*/
+.sec-gauche p
+{
+  background-color:blue;
+  margin-bottom: 37px;
+}
+
+
+
+/*Problème le margin-top ne s'applique pas pour aligné verticalement les dates avec contenu*/
 #exp-gauche p
 {
   background-color: red;
