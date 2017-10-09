@@ -1,6 +1,3 @@
-.form{
-  height: 100%;
-}
 
 body
 {
@@ -61,6 +58,28 @@ h2
   text-align: justify;
 }
 
+.form
+{
+  height: 100%;
+  display: block;
+}
+
+.experience
+{
+  height: 100%;
+  display: block;
+}
+.lang-info
+{
+  height: 100%;
+  display: block;
+}
+.interet
+{
+  height: 100%;
+  display: block;
+}
+
 .gauche
 {
   float: left;
@@ -74,4 +93,10 @@ h2
 {
   float: right;
   width: 70%;
+}
+
+p
+{
+  display: block;
+  height: 100%;
 }
