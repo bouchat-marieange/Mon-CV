@@ -59,13 +59,15 @@ h2
   margin-top:10px;
 }
 
-
-.form .experience .lang-info .interet
+.form .experience .lang_info .interet
 {
   height: 100%;
   display: block;
 }
 
+.lang_info {
+  clear: both;
+}
 
 .gauche
 {
